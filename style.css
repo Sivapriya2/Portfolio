@@ -122,7 +122,11 @@ nav ul li a:hover::after{
     display: flex;
     margin: 20px 0 40px;
 }
-
+.object{
+    /* text-decoration: underline; */
+    padding-top: 35px;
+    color: #ababab;
+}
 .tab-links{
     margin-right: 50px;
     font-size: 18px;
@@ -298,7 +302,9 @@ nav ul li a:hover::after{
 .contact-right{
     flex-basis: 60%;
 }
-
+.contact-right input:focus,textarea:focus{
+    border:1px solid #ababab;
+}
 .contact-left p{
     margin-top: 30px;
 }
